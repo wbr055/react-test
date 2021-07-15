@@ -17,4 +17,4 @@ Please complete the following.
   - The app should efficiently make updates and only run computationally intensive tasks when necessary.
 
 **Stretch Goal**
-- have the app refresh its data automatically every 5 seconds.
+- have the app refresh its data every few seconds.
