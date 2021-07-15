@@ -1,7 +1,11 @@
 # react-test
 
 This app will render a list of apps, displaying their name and status.
+
+Some boilerplate code is provided, but its not required. Make sure to abstract some of your hooks out into custom hooks.
+
 Please complete the following.
+
 
 - The user should see some kind of indication that the app is loading while data is being fetched.
   - errors should be properly handled and displayed.
