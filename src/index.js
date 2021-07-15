@@ -10,7 +10,7 @@ import {AppCard, RefreshButton, Filters} from "./components";
 
 /**
  *
- * @param {AppObject[]} appList
+ * @param {[AppObject]} appList
  * @param {statusFilters} statusFilters
  * @returns {[AppObject]} the filtered appList
  */
@@ -76,7 +76,6 @@ const AppComponent = () => {
         <div className={'p2'}>
             <h1>App Statuses (React Interview)</h1>
             <RefreshButton
-
                 refreshing={isRefreshing}
                 onClick={fetchApps}/>
 
