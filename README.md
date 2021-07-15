@@ -1,6 +1,7 @@
 # react-test
 
-- This app will render a list of apps, displaying their name and status.
+This app will render a list of apps, displaying their name and status.
+Please complete the following.
 
 - The user should see some kind of indication that the app is loading while data is being fetched.
   - errors should be properly handled and displayed.
