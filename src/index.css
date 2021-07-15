@@ -1,0 +1,74 @@
+:root {
+    --spacing: 8px;
+    --shade1: rgba(255, 255, 255, 0.05);
+    --success: #26cf79;
+    --warning: #fec54a;
+    --error: #df4343;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #282c34;
+    color: #8e9ab4;
+}
+
+.p1 {
+    padding: var(--spacing);
+}
+
+.p2{
+    padding: calc(var(--spacing) * 2);
+}
+
+.pl1 {
+    padding: var(--spacing);
+}
+
+.mr1 {
+    margin-right: var(--spacing);
+}
+.ml1{
+    margin-left: var(--spacing);
+}
+
+.flex {
+    display: flex;
+}
+
+.aic {
+    align-items: center;
+}
+.flexWrap{
+    flex-wrap: wrap;
+}
+
+.statusCircle {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.checkBoxLabelText {
+    line-height: 1;
+}
+
+.refresh {
+    padding-left: var(--spacing);
+}
+
+.btn {
+    cursor: pointer;
+    border: 0;
+    background: var(--shade1);
+    padding: calc(var(--spacing) / 2);
+    padding-right: var(--spacing);
+    padding-left: var(--spacing);
+    color: inherit;
+}
+
+
