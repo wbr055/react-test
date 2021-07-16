@@ -4,6 +4,8 @@ This app will render a list of apps, displaying their name and status.
 
 Some boilerplate code is provided, but its not required as long as one or more custom hooks are implemented.
 
+Please complete the following:
+
 - Use the getApps function from api.js to fetch and display the app list using the AppComponent inside of index.js. 
   - The user should see some kind of indication that the app is loading while data is being fetched.
   - errors should be properly handled and displayed.
