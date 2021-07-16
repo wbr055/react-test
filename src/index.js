@@ -9,14 +9,14 @@ import {AppCard, RefreshButton, Filters} from "./components";
  */
 
 /**
- *
+ * Filter the appList based on the selected statuses (green,yellow,red)
  * @param {[AppObject]} appList
  * @param {statusFilters} statusFilters
  * @returns {[AppObject]} the filtered appList
  */
 const filterAppListByStatus = (appList = [], statusFilters = {}) => {
     return appList
-}
+};
 
 
 /**
