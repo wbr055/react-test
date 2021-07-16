@@ -1,3 +1,4 @@
+import React from 'react';
 // displays the AppObject
 export const AppCard = ({name, status}) => (
     <div className={'p1 flex aic'}>
