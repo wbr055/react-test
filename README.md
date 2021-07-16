@@ -2,7 +2,7 @@
 
 This app will render a list of apps, displaying their names and statuses.
 
-Some boilerplate code is provided, but its not required as long as one or more custom hooks are implemented.
+Some boilerplate code is provided, but its not required as long as one or more custom hooks are implemented and the objective is met.
 
 Please complete the following:
 
