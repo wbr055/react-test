@@ -43,7 +43,7 @@ const useFilteredListState = (appList = []) => {
 
     return {filteredList, toggleStatusFilter, statusFilters}
 
-}
+};
 
 
 const AppComponent = () => {
@@ -59,7 +59,7 @@ const AppComponent = () => {
         // call getApps() and set the data to state
 
         // make sure to catch any errors that occur
-    }
+    };
 
     /*
         use the proper react hook to call fetchApps() when the component mounts
@@ -99,7 +99,7 @@ const AppComponent = () => {
         </div>
     )
 
-}
+};
 
 ReactDOM.render(<AppComponent/>, document.getElementById('root'));
 
